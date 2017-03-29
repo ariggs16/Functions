@@ -26,10 +26,10 @@
 // parameters and returns the sum of those 2 numbers.
 
 function sum(a, b) {
-	var c = (a+b)
+	var c = (a + b)
 	return a + b
 }
-c(4, 6)
+c (4 + 6)
 
 
 // Q2
@@ -40,6 +40,7 @@ function avg(a, b, c) {
 	var d = (a + b + c)
 	return (a + b + c) / 3
 }
+d (1 + 2 + 4)
 
 
 
@@ -52,6 +53,7 @@ function getlength (a) {
 }
 
 
+
 // Q4
 // Write a function called `greaterThan` that takes
 // two parameters and returns `true` if the second
@@ -59,11 +61,13 @@ function getlength (a) {
 // the function should return `false`.
 
 function greaterThan (x,y) {
-	if ( x < y)
+	if ( x < y) {
 		return true
-}	else {
-	return false
+	} else {
+		return false
+ }
 }
+x=10 y=20
 
 
 // Q5
@@ -72,7 +76,9 @@ function greaterThan (x,y) {
 // is formated like "Hello, Name!" where *Name*
 // is the parameter that was passed in.
 
-function 
+function greet(name) {
+	return "Hello, " + name + "!"
+}
 
 
 // Q6
@@ -87,7 +93,11 @@ function
 // sentence: "quick brown fox jumps over the fence"
 
 
+function madlib(action, animal, thing) {
+	return "A " + action + " brown " + animal + " jumped over a " + thing + "."
+}
 
+madlib("quick", "fox", "fence")
 
 ///////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////Q1

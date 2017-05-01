@@ -26,10 +26,9 @@
 // parameters and returns the sum of those 2 numbers.
 
 function sum(a, b) {
-	var c = (a + b)
 	return a + b
 }
-c (4 + 6)
+4 + 6
 
 
 // Q2
@@ -37,10 +36,9 @@ c (4 + 6)
 // and returns the average of those 3 numbers.
 
 function avg(a, b, c) {
-	var d = (a + b + c)
 	return (a + b + c) / 3
 }
-d (1 + 2 + 4)
+1 + 2 + 4 / 3
 
 
 
@@ -48,7 +46,7 @@ d (1 + 2 + 4)
 // Write a function called `getLength` that takes one
 // parameter (a string) and returns the length
 
-function getlength (a) {
+function getLength (a) {
 	return a.length
 }
 
@@ -94,7 +92,7 @@ function greet(name) {
 
 
 function madlib(action, animal, thing) {
-	return "A " + action + " brown " + animal + " jumped over a " + thing + "."
+	return "A" + action + " brown" + animal + "jumped over a" + thing + "."
 }
 
 madlib("quick", "fox", "fence")

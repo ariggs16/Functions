@@ -3,10 +3,10 @@
 // ---------------------
 
 function max(a, b){
-    if ( a > b ) {
-    	return true 
+    if (a > b) {
+    	return a
     }	else {
-    	return false
+    	return b
     }
 }
 // (10>20 or 20>10)
@@ -34,6 +34,8 @@ function vowel(character){
 // ---------------------
 // Write a funcstion translate() that will translate a text into "Rovarspraket". That is, double every consonant and place an occurrence of "o" in between. For example, translate("this is fun") should return the string "tothohisos isos fofunon".
 // ---------------------
+
+function roverspraket()
 
 
 
